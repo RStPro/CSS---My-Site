@@ -29,14 +29,17 @@ h3 {
 }
 
 .top-container {
-  background-color: #e3f6ff;
+  background-color: #EAF6F6;
   position: relative;
-  padding-top: 100px;
+  padding: 100px;
 }
 
 .middle-container {
+  margin: 100px auto;
+
 }
 .bottom-container {
+  margin: 100px auto;
 }
 
 .top-cloud {
@@ -45,12 +48,48 @@ h3 {
   top: 50px;
 }
 
+.skills{
+  margin: 50px auto 50px auto;
+}
+
+.skill-row{
+  line-height: 2;
+  text-align: left;
+  margin: 100px auto 150px auto;
+  width: 50%;
+}
+
 .bottom-cloud {
   position: absolute;
   bottom: 300px;
   left: 300px;
 }
 
+.profile-pic{
+  width: 15%;
+}
+
+.chillie-img{
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.computer-img{
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+
 a{
   color: #11999E;
+}
+
+hr{
+  margin: 100px auto;
+  border-style: none;
+  border-top: dotted;
+  border-width: 10px;
+  border-color: #EAF6F6;
+  width: 5%;
 }
